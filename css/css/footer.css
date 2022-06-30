@@ -1,0 +1,20 @@
+footer{
+    background-color: #000;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(.75);
+    display: grid;
+    padding: 60px 20px 60px 20px;
+}
+
+footer > p{
+    color: #fff;
+    font-size: 1rem;
+    place-content: center;
+    place-self: center;
+}
+
+
+
