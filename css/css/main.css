@@ -218,8 +218,16 @@
     margin: 40px 0px;
 }
 
+.inf3{
+    color:rgb(255, 166, 0);
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 500px){
-    .inf2{
+    .inf2, .inf3{
         font-size: 1rem;
     }
 }
@@ -318,3 +326,54 @@ ul{
     align-content: center;
 }
 
+.myQuestions-dad li{
+    background-color:rgb(124, 124, 124);
+    color: #fff;
+    border-radius: 10px;
+    font-size:1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+}
+
+.myQuestions-dad li:active{
+    background-color: rgb(110, 110, 110);
+    transition: 0.5s background-color;
+}
+
+.yourAnswer{
+    width: 90px;
+    height: 50px;
+    display:grid;
+    place-content: center;
+}
+
+.correct::before{
+    content: '';
+    background-image: url('../../correct.svg');
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:5px;
+    top:14px;
+}
+
+.wrong::before{
+    content:'';
+    background-image: url('../../wrong.svg');
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:5px;
+    top: 14px;
+}
+/*
+.myQuestions-dad .liWrong{ 
+    background-color:#bd3026;
+}
+
+.myQuestions-dad .liCorrect{
+    background-color: #2ac264;
+}*/
