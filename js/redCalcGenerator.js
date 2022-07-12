@@ -28,7 +28,7 @@ function calculo(){
     }
 
     function yourSignFromMathGenerated () {
-        const sign = Math.round(Math.random() * (1 - 0) + 0);
+        const sign = 0;
         return sign;
     }
 
